@@ -40,8 +40,8 @@ int main()
         if (std::none_of(v.cbegin(), v.cend(), [&Userinput](char p)
                          { return p == Userinput; }))
         {
-            std::cout << "Incorrect value, the game will end now." << std::endl;
-            break;
+            std::cout << "Incorrect value, enter a correct value, please." << std::endl;
+            std::cin >> Userinput;
         }
 
         // Random Input
