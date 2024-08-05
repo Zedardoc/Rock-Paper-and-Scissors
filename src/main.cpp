@@ -63,9 +63,7 @@ int main()
 
         std::cout << "CPU has chosen " << Machineinput << std::endl;
 
-        // Now we need to compare both variables
-        // Maybe there is another way to  avoid all of these if statements, but
-        // if it works, it works.
+        // Now we need to compare both variables (machine and user)
         if (Userinput == Machineinput)
         {
             std::cout << "Draw (+0)";
